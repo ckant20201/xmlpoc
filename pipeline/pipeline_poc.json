@@ -15,6 +15,12 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
+					"command": "java -jar ParaxelPoc-1.0-SNAPSHOT-jar-with-dependencies.jar",
+					"resourceLinkedService": {
+						"referenceName": "AzureBlobStorage1",
+						"type": "LinkedServiceReference"
+					},
+					"folderPath": "sample",
 					"referenceObjects": {
 						"linkedServices": [],
 						"datasets": []
